@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 28777aad99466dd40b756efa7e3e0c65
+guid: 8f4fbd94277a0934bb4d4433c5d7852f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,28 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Black2
-    second: {fileID: 2100000, guid: 34c0f61108d5b244da68b0d0260f8ec0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: LegoBlackPhong
-    second: {fileID: 2100000, guid: 5223e2d1e4970c84d9e0f8e6961a1d8d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: LegoGlass
-    second: {fileID: 2100000, guid: 697cc094abaa50c4fa77a90fa162163d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: LegoWhite
-    second: {fileID: 2100000, guid: 6e8ce6d5b8ee4354b8d735dcc8a4e245, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: blac
-    second: {fileID: 2100000, guid: 10c66cbc973dab44f9f3f7ac0c884027, type: 2}
+      name: Material #25
+    second: {fileID: 2100000, guid: e5a10dd49926e2a4394bb052279bb071, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
