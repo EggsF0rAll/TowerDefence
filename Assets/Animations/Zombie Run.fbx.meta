@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 27c182cdb5dfb25439581e6c2e445f66
+guid: a0312244425f60a4a88133aff5d5f497
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -31,11 +31,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Victory
+      name: RunP
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 113
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
