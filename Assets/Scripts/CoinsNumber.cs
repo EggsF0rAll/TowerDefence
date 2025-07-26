@@ -7,6 +7,10 @@ public class CoinsNumber : MonoBehaviour
     private int _coins = 0;
     [SerializeField]
     private UnityEvent<int> _onCoinsUpdate;
+    [SerializeField]
+    private UnityEvent _onPurchasedSuccess;
+    [SerializeField]
+    private UnityEvent _onPurchasedFailure;
     public void AddCoin(int amount)
     {
         _coins += amount;
@@ -21,6 +25,18 @@ public class CoinsNumber : MonoBehaviour
     {
         _coins -= amount;
         _onCoinsUpdate?.Invoke(_coins);
+    }
+
+    public bool BuyObject(int cost)
+    {
+        if (_coins >= cost)
+        {
+            _onPurchasedSuccess?.Invoke();
+            SubtractCoins(cost);
+            return true;
+        }
+        _onPurchasedFailure?.Invoke();
+        return false;
     }
  
 }
