@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f78b5f59bc3e14bad71d6687bbdd4a, type: 3}
   m_Name: GunDataLaser
   m_EditorClassIdentifier: 
-  fireRate: 5
-  damage: 1
+  fireRate: 0.5
+  damage: 10
   fireSoundName: Laser
